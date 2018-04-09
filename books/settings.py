@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'A300017'
+BOT_NAME = 'advent'
 
-SPIDER_MODULES = ['A300017.spiders']
-NEWSPIDER_MODULE = 'A300017.spiders'
+SPIDER_MODULES = ['advent.spiders']
+NEWSPIDER_MODULE = 'advent.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -48,7 +48,7 @@ COOKIES_DEBUG = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
-    'A300017.middlewares.A300017SpiderMiddleware': None,
+    'advent.middlewares.A300017SpiderMiddleware': None,
 }
 
 # Enable or disable downloader middlewares
@@ -67,7 +67,7 @@ DOWNLOADER_MIDDLEWARES = {'scrapy.downloadermiddlewares.useragent.UserAgentMiddl
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'A300017.pipelines.A300017Pipeline': 300,
+    'advent.pipelines.A300017Pipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

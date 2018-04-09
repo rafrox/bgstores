@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+import scrapy
 from __future__ import absolute_import
 
 from scrapy import Request
