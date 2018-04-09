@@ -1,3 +1,0 @@
-[scrapy]
-settings = A299999.settings
-

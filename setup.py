@@ -4,5 +4,5 @@ setup(
     name         = 'project',
     version      = '1.0',
     packages     = find_packages(),
-    entry_points = {'scrapy': ['settings = A299999.settings']},
+    entry_points = {'scrapy': ['settings = A300017.settings']},
 )
